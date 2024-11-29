@@ -24,7 +24,7 @@ const Footer = () => (
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-          Explore Bengaluru
+          Experience Events
         </h4>
         <button
           type="button"
@@ -47,25 +47,8 @@ const Footer = () => (
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
-            Namma Trails
+            CampusConnect
           </h4>
-          <div className="flex gap-4">
-            {socials.map((social) => (
-              <a
-                key={social.name}
-                href={social.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-[24px] h-[24px] object-contain cursor-pointer"
-              >
-                <img
-                  src="/linkedin1.svg"
-                  alt={social.name}
-                  className="w-[24px] h-[24px] object-contain"
-                />
-              </a>
-            ))}
-          </div>
         </div>
       </div>
     </div>
