@@ -11,7 +11,6 @@ const Page = () => (
       <Explore />
     </div>
       <div className="gradient-04 z-0" />
-
     <Footer />
   </div>
 );
